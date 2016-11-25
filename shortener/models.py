@@ -14,7 +14,6 @@ def code_generator(size=6, chars=string.ascii_lowercase + string.digits):
     return ''.join(random.choice(chars) for _ in range(size))
 
 
-
 class KirrURL(models.Model):
     url = models.CharField(max_length=220,)
     shortcode = models.CharField(max_length=15, unique=True)
