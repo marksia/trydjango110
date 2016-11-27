@@ -1,3 +1,7 @@
+*.db
+**/migrations/*
+!**/__init__.py
+
 .Python
 bin/
 include/
